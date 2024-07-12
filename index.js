@@ -5,7 +5,7 @@ $('.navbar-collapse a').click(function(){
 
 ///////////////////////////// Auto type animation /////////////////////////
 var typed = new Typed(".auto-typed", {
-    strings: ["Contetnt Writer^1000", "Blogger^1000", "Social Media Manager^1000"],
+    strings: ["Content Writer^1000", "Blogger^1000", "Social Media Manager^1000"],
     typeSpeed: 150,
     backSpeed: 50,
     loop: true,
