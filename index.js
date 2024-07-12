@@ -26,7 +26,7 @@ $('html, body').animate({
  window.onscroll = () => {
      sections.forEach(sec => {
          let top = window.scrollY;
-         let offset = sec.offsetTop - 350;
+         let offset = sec.offsetTop - 290;
          let height = sec.offsetHeight;
          let id = sec.getAttribute('id');
          if(top >= offset && top < offset + height) {
