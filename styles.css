@@ -273,6 +273,12 @@
     width: 150px;
 }
 
+button[class="CV"], button[class="CV CV-1"] {
+    font-size: 120%;
+    font-weight: 400;
+
+}
+
 /* .CV-1 {
     color: var(--bg-color-dark);
     background-color: var(--theme-color);
@@ -305,13 +311,18 @@
     }
 
     .CV {
-        font-size: 120%;
         font-weight: 400;
         border: 1px solid var(--theme-color);
         border-radius: 15px;
         padding: 5px 0px;
         transition: 0.3s;
         width: 120px;
+    }
+
+    button[class="CV"], button[class="CV CV-1"] {
+        font-size: 120%;
+        font-weight: 500;
+
     }
 }
 
@@ -651,12 +662,12 @@ transition: background-color 1000000000000000000000s;
 
 .contact-btn {
     font-size: 120%;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--theme-color);
     background-color: var(--bg-color-dark);
     border: 2px solid var(--theme-color);
-    border-radius: 6px;
-    padding: 5px 60px;
+    border-radius: 7px;
+    padding: 6px 70px;
     transition: 0.3s;
 }
 
@@ -717,15 +728,14 @@ transition: background-color 1000000000000000000000s;
 
     .contact-btn {
         margin-top: 10px;
-        font-size: 80%;
-        font-weight: 400;
         border: 1px solid var(--theme-color);
         border-radius: 6px;
-        padding: 3px 20px;
+        padding: 3px 35px;
     }
 
     button[type="submit"] {
-        font-size: 110%;
+        font-size: 100%;
+        font-weight: 500;
     }
 
 
@@ -738,10 +748,10 @@ transition: background-color 1000000000000000000000s;
     }
 
     #contact-me i {
-        font-size: 100%;
+        font-size: 120%;
         border: 1px solid var(--theme-color);
         border-radius: 200px;
-        padding: 9px;
+        padding: 12px;
     }
 }
 
