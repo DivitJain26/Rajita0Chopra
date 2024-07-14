@@ -1,3 +1,10 @@
+///////////////////////////// Preloader /////////////////////////
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function() {
+    loader.style.display = 'none';
+});
+
+
 ///////////////////////////// Nav bar auto collapse /////////////////////////
 $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
