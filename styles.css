@@ -748,10 +748,10 @@ transition: background-color 1000000000000000000000s;
     }
 
     #contact-me i {
-        font-size: 120%;
+        font-size: 130%;
         border: 1px solid var(--theme-color);
         border-radius: 200px;
-        padding: 12px;
+        padding: 9px;
     }
 }
 
