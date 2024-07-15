@@ -718,7 +718,7 @@ transition: background-color 1000000000000000000000s;
 
 .bi-substack {
     font-size: 100%;
-    padding: 10px 12px;
+    padding: 10px 12.3px;
     position: relative;
     top: 25%;
 }
@@ -781,14 +781,14 @@ transition: background-color 1000000000000000000000s;
 
     .bi-substack {
         font-size: 100%;
-        padding: 9.5px 11px;
+        padding: 9.5px 10.5px;
         position: relative;
         top: 25%;
     }
 
     .fa-quora {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 9.7px;
+        padding-right: 9.7px;
     }
 }
 
