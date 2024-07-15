@@ -104,7 +104,7 @@
 
 @media (width <= 768px) {
     .navbar-brand {
-        margin: 1% 0 1% 2%;
+        margin: 2% 0 2% 4%;
     }
 
     .nav-link {
@@ -706,7 +706,7 @@ transition: background-color 1000000000000000000000s;
     margin: 0 19px;
 }
 
-#contact-me i {
+.social-meida-icon {
     font-size: 120%;
     color: var(--theme-color);
     border: 2px solid var(--theme-color);
@@ -714,6 +714,13 @@ transition: background-color 1000000000000000000000s;
     padding: 11px;
     display: ;
     transition: 0.3s;
+}
+
+.bi-substack {
+    font-size: 100%;
+    padding: 10px 12px;
+    position: relative;
+    top: 25%;
 }
 
 #contact-me i:hover {
@@ -762,14 +769,26 @@ transition: background-color 1000000000000000000000s;
     }
 
     #contact-me a {
-        margin: 0 10px;
+        margin: 0 9px;
     }
 
-    #contact-me i {
+    .social-meida-icon {
         font-size: 130%;
         border: 1px solid var(--theme-color);
         border-radius: 200px;
         padding: 9px;
+    }
+
+    .bi-substack {
+        font-size: 100%;
+        padding: 9.5px 11px;
+        position: relative;
+        top: 25%;
+    }
+
+    .fa-quora {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
