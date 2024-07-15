@@ -104,8 +104,9 @@
     }
 
     .nav-link {
-        font-size: 0.9rem;
-        margin-left: 5px;
+        font-size: 1rem;
+        margin-left: 7px;
+        margin: 0.7% 0;
     }
 }
 
@@ -319,7 +320,7 @@ button[class="CV"], button[class="CV CV-1"] {
 
     .CV {
         font-weight: 400;
-        border: 1px solid var(--theme-color);
+        border: 1.5px solid var(--theme-color);
         border-radius: 15px;
         padding: 5px 0px;
         transition: 0.3s;
@@ -725,16 +726,16 @@ transition: background-color 1000000000000000000000s;
     }
 
     .contact-input:hover {
-        border: 1px solid var(--theme-color);
+        border: 1.5px solid var(--theme-color);
     }
 
     .your-message {
-        height: 140px;
+        height: 160px;
     }
 
     .contact-btn {
         margin-top: 10px;
-        border: 1px solid var(--theme-color);
+        border: 1.5px solid var(--theme-color);
         border-radius: 6px;
         padding: 3px 35px;
     }
