@@ -519,6 +519,10 @@ button[class="CV"], button[class="CV CV-1"] {
         filter: none;
     }
 
+    .project-title {
+       margin: 1px;
+    }
+
     .project h1 {
         font-size: 110%;
     }
