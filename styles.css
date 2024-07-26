@@ -664,7 +664,7 @@ input[type="text"], input[type="email"], textarea[name="message"]  {
     height: 190px;
 }
 
-.contact-input:hover {
+.contact-input:focus, .contact-input:hover {
     border: 2px solid var(--theme-color);
 }
 
